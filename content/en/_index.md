@@ -27,8 +27,6 @@ sections:
   - block: collection
     content:
       title: Research lines
-      subtitle: Our line of research aims to increase our biological understanding around the complex interplay between the cells and the ECM that takes place during tissue remodelling in chronic diseases in order to discover new therapeutic targets for the treatment of fibrosis and cancer.
-      summary: YOOOO
       text:
       count: 4
       offset: 0

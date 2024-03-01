@@ -8,18 +8,35 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Laboratori de Remodelació Tisular, Fibrosi i Càncer
       image:
         filename: welcome.jpg
+      cta:
+        label: "Coneix l'equip"
+        url: /people/
+      cta_alt:
+        label: 'Contacta'
+        url: /contact/
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        Liderat per la Doctora Moles, el grup de Remodelació Tisular, Fibrosi i Càncer té un enfocament científic transversal, amb un equip punter d'investigadors que treballa amb les técniques més avançades.
+        <br/>
+
   - block: collection
     content:
-      title: Latest News
+      title: Línies de recerca
+      text:
+      count: 4
+      offset: 0
+      order: desc
+      page_type: lines
+    design:
+      view: showcase2
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Notícies
       subtitle:
       text:
       count: 5
@@ -35,33 +52,5 @@ sections:
     design:
       view: card
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-  
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+
 ---
