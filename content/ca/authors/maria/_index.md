@@ -6,7 +6,7 @@ title: Maria Fernández Fernández
 superuser: false
 
 # Role/position/tagline
-role: PhD Student
+role: Estudiant de doctorat
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -68,7 +68,7 @@ authors:
  - maria
 
 user_groups:
- - PhD Students
+ - Estudiants de Doctorat
 ---
 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

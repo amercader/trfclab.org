@@ -6,7 +6,7 @@ title: Anna Moles Fernández
 superuser: true
 
 # Role/position/tagline
-role: Principal Investigator
+role: Investigadora Principal
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -68,7 +68,7 @@ highlight_name: true
 
 # This is needed for the user to show up in the Teams widget
 user_groups:
- - Principal Investigators
+ - Investigadora Principal
 
 ---
 

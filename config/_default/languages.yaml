@@ -6,24 +6,61 @@
 en:
   languageCode: en-us
   contentDir: content/en
-
+  menus:
+    main:
+      - name: News
+        url: post
+        weight: 20
+      - name: People
+        url: people
+        weight: 30
+      - name: Events
+        url: event
+        weight: 40
+      - name: Publications
+        url: publication
+        weight: 50
+      - name: Contact
+        url: contact
+        weight: 60
 es:
   languageCode: es
   contentDir: content/es
+  menus:
+    main:
+      - name: Noticias
+        url: post
+        weight: 20
+      - name: Equipo
+        url: people
+        weight: 30
+      - name: Eventos
+        url: event
+        weight: 40
+      - name: Publicaciones
+        url: publication
+        weight: 50
+      - name: Contacto
+        url: contact
+        weight: 60
 
 ca:
   languageCode: ca
   contentDir: content/ca
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  menus:
+    main:
+      - name: Notícies
+        url: post
+        weight: 20
+      - name: Equip
+        url: people
+        weight: 30
+      - name: Esdeveniments
+        url: event
+        weight: 40
+      - name: Publicacions
+        url: publication
+        weight: 50
+      - name: Contacte
+        url: contact
+        weight: 60

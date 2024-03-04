@@ -68,7 +68,7 @@ highlight_name: true
 
 # This is needed for the user to show up in the Teams widget
 user_groups:
- - Principal Investigators
+ - Principal Investigator
 
 ---
 
