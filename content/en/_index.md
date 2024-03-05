@@ -12,15 +12,15 @@ sections:
       image:
         filename: welcome.jpg
       cta:
-        label: 'Meet the Team'
-        url: /people/
-      cta_alt:
         label: 'Get in touch'
         url: /contact/
+      cta_alt:
+        label: 'Meet the Team'
+        url: /people/
       text: |
 
         <br>
-          Led by Dr Moles, the Tissue Remodelling, Fibrosis and Cancer group has a transversal approach to science, with an enthusiastic and highly skilled team of researchers that enjoy doing science together and learning from each other every day.
+          Led by Dr Anna Moles, the Tissue Remodelling, Fibrosis and Cancer group has a transversal approach to science, with an enthusiastic and highly skilled team of researchers that enjoy doing science together and learning from each other every day.
         <br/>
 
 

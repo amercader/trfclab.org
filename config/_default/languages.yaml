@@ -14,15 +14,12 @@ en:
       - name: People
         url: people
         weight: 30
-      - name: Events
-        url: event
-        weight: 40
       - name: Publications
         url: publication
-        weight: 50
+        weight: 40
       - name: Contact
         url: contact
-        weight: 60
+        weight: 50
 es:
   languageCode: es
   contentDir: content/es
@@ -34,15 +31,12 @@ es:
       - name: Equipo
         url: people
         weight: 30
-      - name: Eventos
-        url: event
-        weight: 40
       - name: Publicaciones
         url: publication
-        weight: 50
+        weight: 40
       - name: Contacto
         url: contact
-        weight: 60
+        weight: 50
 
 ca:
   languageCode: ca
@@ -55,12 +49,9 @@ ca:
       - name: Equip
         url: people
         weight: 30
-      - name: Esdeveniments
-        url: event
-        weight: 40
       - name: Publicacions
         url: publication
-        weight: 50
+        weight: 40
       - name: Contacte
         url: contact
-        weight: 60
+        weight: 50

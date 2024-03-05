@@ -12,14 +12,14 @@ sections:
       image:
         filename: welcome.jpg
       cta:
-        label: "Conoce el equipo"
-        url: /people/
-      cta_alt:
         label: 'Contacta'
         url: /contact/
+      cta_alt:
+        label: "Conoce el equipo"
+        url: /people/
       text: |
         <br>
-        Liderado por la Doctora Moles, el grupo de Remodelación Tisular, Fibrosis y Cáncer tiene un enfoque científico transversal, con un equipo puntero de investigadores que trabaja con las técnicas más avanzadas.
+        Liderado por la Doctora Anna Moles, el grupo de Remodelación Tisular, Fibrosis y Cáncer tiene un enfoque científico transversal, con un equipo puntero de investigadores que trabaja con las técnicas más avanzadas.
         <br/>
 
   - block: collection
