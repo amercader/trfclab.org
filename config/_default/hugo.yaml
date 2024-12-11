@@ -16,12 +16,20 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  - reading_time: false
+    profile: false
+
+############################
 ## ADVANCED
 ############################
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+paginate: 100
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>

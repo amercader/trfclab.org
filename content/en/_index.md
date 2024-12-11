@@ -10,7 +10,7 @@ sections:
       title: |
         Tissue Remodeling, Fibrosis and Cancer Lab
       image:
-        filename: welcome.jpg
+        filename: welcome2.jpg
       cta:
         label: 'Get in touch'
         url: /contact/
@@ -20,7 +20,10 @@ sections:
       text: |
 
         <br>
-          Led by Dr Anna Moles, the Tissue Remodelling, Fibrosis and Cancer group has a transversal approach to science, with an enthusiastic and highly skilled team of researchers that enjoy doing science together and learning from each other every day.
+        Welcome to the TRFC Lab!
+
+        We are a group of highly motivated and passionate scientists working to better understand the cellular mechanisms controlling tissue remodelling, fibrosis and cancer.
+
         <br/>
 
 
@@ -37,7 +40,7 @@ sections:
       columns: '1'
 
       do_link: false
-  
+
   - block: collection
     content:
       title: Latest News
@@ -56,7 +59,7 @@ sections:
     design:
       view: card
       columns: '1'
-  
+
   - block: markdown
     content:
       title:
@@ -65,7 +68,7 @@ sections:
     design:
       columns: '1'
       background:
-        image: 
+        image:
           filename: title_bg.jpg
           filters:
             brightness: 1
@@ -76,7 +79,7 @@ sections:
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
-  
+
   - block: markdown
     content:
       title:
