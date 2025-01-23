@@ -5,7 +5,7 @@
 # Default language
 en:
   languageCode: en-us
-  contentDir: content/en
+    #  contentDir: content/en
   menus:
     main:
       - name: News
@@ -22,7 +22,7 @@ en:
         weight: 50
 es:
   languageCode: es
-  contentDir: content/es
+#  contentDir: content/es
   menus:
     main:
       - name: Noticias
@@ -40,7 +40,7 @@ es:
 
 ca:
   languageCode: ca
-  contentDir: content/ca
+    #  contentDir: content/ca
   menus:
     main:
       - name: Notícies
