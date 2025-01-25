@@ -14,15 +14,23 @@ from slugify import slugify
 
 
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-PICS_DIR = os.path.join(CURRENT_DIR, "..", "pics_trcflab")
-OUTPUT_DIR = os.path.join(CURRENT_DIR, "content/post")
+PICS_DIR = os.path.join(CURRENT_DIR, "..", "..", "pics_trcflab")
+OUTPUT_DIR = os.path.join(CURRENT_DIR, "..", "content", "post")
+LANGS = ["en", "es", "ca"]
 
-model_dir_ca = snapshot_download(
-    repo_id="projecte-aina/aina-translator-en-ca", revision="main"
-)
-tokenizer_ca = pyonmttok.Tokenizer(
-    mode="none", sp_model_path=model_dir_ca + "/spm.model"
-)
+
+tokenizer_ca = None
+
+
+def _setup_ca_model():
+    model_dir_ca = snapshot_download(
+        repo_id="projecte-aina/aina-translator-en-ca", revision="main"
+    )
+    tokenizer_ca = pyonmttok.Tokenizer(
+        mode="none", sp_model_path=model_dir_ca + "/spm.model"
+    )
+
+    return tokenizer_ca
 
 
 def translate_es(text):
@@ -38,6 +46,9 @@ def translate_es(text):
 
 
 def translate_ca(text):
+
+    if not tokenizer_ca:
+        tokenizer_ca = _setup_ca_model()
 
     tokenized = tokenizer_ca.tokenize(text)
 
@@ -90,7 +101,6 @@ def create_news_json():
                     print(f"Error in item: {item['title']['en']}")
                     print(e)
 
-
                 item["slug"] = get_slug(item["title"]["en"], item["date"], kw_model)
                 news.append(item)
                 cnt += 1
@@ -114,7 +124,7 @@ def create_news_json():
             item["title"]["en"] = line.replace("Títol:", "").strip()
             try:
                 item["title"]["es"] = translate_es(item["title"]["en"])
-                item["title"]["ca"] = translate_es(item["title"]["en"])
+                item["title"]["ca"] = translate_ca(item["title"]["en"])
             except Exception as e:
                 print(f"Error in item: {item['title']['en']}")
                 print(e)
@@ -131,10 +141,13 @@ def create_news_json():
         f.write(json.dumps(news))
 
 
-def create_news_file(news_item, file_path):
-    title = news_item["title"].replace('"', '\\"')
+def create_news_file(news_item, target_dir):
 
-    file_contents = """
+    for lang in LANGS:
+
+        title = news_item["title"][lang].replace('"', '\\"')
+
+        file_contents = """
 ---
 title: "{title}"
 date: {date}
@@ -144,12 +157,13 @@ image:
 ---
 
 {body}
-""".format(
-        title=title, date=news_item["date"], body=news_item["body"]
-    ).strip()
+    """.format(
+            title=title, date=news_item["date"], body=news_item["body"][lang]
+        ).strip()
 
-    with open(file_path, "w") as f:
-        f.write(file_contents)
+        file_path = os.path.join(target_dir, f"index.{lang}.md")
+        with open(file_path, "w") as f:
+            f.write(file_contents)
 
 
 def create_news_image(news_image, file_path):
@@ -180,12 +194,10 @@ if not os.path.exists("news.json"):
     print("news.json created")
 
 
-sys.exit(1)
-
 with open("news.json") as f:
     news = json.load(f)
 
-
+cnt = 0
 for news_item in news:
 
     target_dir = os.path.join(OUTPUT_DIR, news_item["slug"])
@@ -194,8 +206,11 @@ for news_item in news:
 
     news_file = os.path.join(target_dir, "index.en.md")
     if not os.path.exists(news_file):
-        create_news_file(news_item, news_file)
+        create_news_file(news_item, target_dir)
 
     image_file = os.path.join(target_dir, "featured.jpg")
     if not os.path.exists(image_file):
         create_news_image(news_item, image_file)
+
+    cnt += 1
+    print(f"Created files for news item {cnt}")

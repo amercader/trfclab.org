@@ -1,7 +1,0 @@
-paths should be
-
-content/post/<slug>
-    index.en.md
-    index.es.md
-    index.ca.md
-    featured.jpg
