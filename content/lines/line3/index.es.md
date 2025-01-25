@@ -1,1 +1,1 @@
-Analysis of the degradome associated with the development and progression of liver cancer.
+Análisis del degradoma asociado al desarrollo y progresión del cáncer de hígado.

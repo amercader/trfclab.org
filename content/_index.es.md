@@ -10,12 +10,12 @@ sections:
       title: |
         Laboratorio de Remodelación Tisular, Fibrosis y Cáncer
       image:
-        filename: welcome.jpg
+        filename: welcome2.jpg
       cta:
         label: 'Contacta'
         url: /contact/
       cta_alt:
-        label: "Conoce el equipo"
+        label: "Conoce al equipo"
         url: /people/
       text: |
         <br>

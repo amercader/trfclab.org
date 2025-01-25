@@ -1,1 +1,1 @@
-Study of the proteolytic networks controlling the progression and reversion of liver and kidney fibrosis.
+Estudio de las redes proteolíticas que controlan la progresión y reversión de la fibrosis hepática y renal.

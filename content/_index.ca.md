@@ -10,7 +10,7 @@ sections:
       title: |
         Laboratori de Remodelació Tisular, Fibrosi i Càncer
       image:
-        filename: welcome.jpg
+        filename: welcome2.jpg
       cta:
         label: 'Contacta'
         url: /contact/

@@ -1,1 +1,1 @@
-Identification of central and common regulatory mechanisms of hepatic and renal fibrotic diseases.
+Identificació dels mecanismes reguladors centrals i comuns de les malalties fibròtiques hepàtiques i renals.

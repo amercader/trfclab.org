@@ -1,1 +1,2 @@
-Design of therapies modulating proteolytic networks as novel treatments for fibrosis and cancer.
+Diseño de terapias que modulen redes proteolíticas como nuevos tratamientos para la fibrosis y el cáncer.
+

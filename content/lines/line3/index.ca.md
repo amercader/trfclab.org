@@ -1,1 +1,2 @@
-Analysis of the degradome associated with the development and progression of liver cancer.
+Anàlisi del degradoma associat al desenvolupament i progressió del càncer de fetge.
+
