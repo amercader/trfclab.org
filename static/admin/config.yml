@@ -59,40 +59,28 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false, i18n: true}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart", i18n: "duplicate"}
 
-
-            #    fields:
-            #      - {label: "Title", name: "title", widget: "string", i18n: true}
-            #      - {label: "Publish Date", name: "date", widget: "datetime", i18n: "duplicate" }
-            #      - label: "Featured Image"
-            #        name: "image"
-            #        widget: "object"
-            #        i18n: true
-            #        fields:
-            #          - {label: "Image", name: "filename", widget: "image", required: false, i18n: "duplicate"}
-            #          - {label: "Focal Point", name: "focal_point", widget: "select", options: ["Smart", "Center", "TopLeft", "Top", "TopRight", "Left", "Right", "BottomLeft", "Bottom", "BottomRight"], default: "Smart", i18n: "duplicate"}
-            #      - {label: "Body", name: "body", widget: "markdown", i18n: true}
-
-  - name: authors
+  - name: "authors"
     label: Authors
     label_singular: Author
     folder: 'content/authors'
-      #    path: 'authors/{{slug}}/_index'
+    path: '{{slug}}/_index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
     i18n: true
     fields:  # The fields each document in this collection have
-      - {label: "Display name (such as your full name)", name: "title", widget: "string"}
-      - {label: "Position or tagline (such as Professor of AI)", name: "role", widget: "string", required: false}
+      - {label: "Display name (such as your full name)", name: "title", widget: "string", i18n: "duplicate"}
+      - {label: "Position or tagline (such as Professor of AI)", name: "role", widget: "string", required: false, i18n: true}
       - label: "Avatar (upload an image named `avatar.jpg/png`)"
         name: "avatar_filename"
         widget: "image"
         default: "avatar"
         required: false
+        i18n: "duplicate"
         media_library:
           config:
             multiple: false
-      - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
-      - {label: "Full biography (shown in About widget)", name: "body", widget: "markdown", required: false}
+      - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false, i18n: true}
+      - {label: "Full biography (shown in About widget)", name: "body", widget: "markdown", required: false, i18n: true}
       - label: "Interests (shown in About widget)"
         name: "interests"
         required: false
@@ -101,6 +89,7 @@ collections:
         name: social
         required: false
         widget: list
+        i18n: true
         fields:
           - {label: Link, name: link, widget: string}
           - label: Icon pack
@@ -124,17 +113,11 @@ collections:
                 widget: "boolean"
                 default: false
                 required: false
-      - label: "Organizations you belong to or are affiliated with (shown in About widget)"
-        name: "organizations"
-        required: false
-        widget: list
-        fields:
-          - {label: Organization, name: name, widget: string, required: true}
-          - {label: Link, name: url, widget: string, required: false}
       - label: "Education"
         name: "education"
         required: false
         widget: object
+        i18n: true
         fields:
           - label: "Courses"
             name: "courses"
@@ -153,4 +136,3 @@ collections:
         name: "user_groups"
         required: false
         widget: "list"
-
