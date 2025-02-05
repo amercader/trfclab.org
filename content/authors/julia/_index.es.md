@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Maria Fernández Fernández
+title: Júlia Cacho i Pujol
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position/tagline
-role: PhD FPU Fellow
+role: Estudiante de doctorado FPI
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -20,19 +20,21 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:maria.fernandez@iibb.csic.es'
+    link: 'mailto:julia.cacho@iibb.csic.es'
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/j%C3%BAliacacho/
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0001-9948-9720
-
+    link: https://orcid.org/0000-0002-6638-5615
 
 # This is needed for the user to show up in the Teams widget
 authors:
- - maria
+ - julia
 
 user_groups:
- - PhD Students
+ - Estudiantes de Doctorado
 
-order: 2
+order: 3
 
 ---

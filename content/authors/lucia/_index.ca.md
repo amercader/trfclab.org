@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Maria Fernández Fernández
+title: Lucía Calderón Robles
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position/tagline
-role: PhD FPU Fellow
+role: Estudiant de Màster
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,21 +18,17 @@ organizations:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:maria.fernandez@iibb.csic.es'
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/0000-0001-9948-9720
-
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/luc%C3%ADa-calder%C3%B3n-robles-901b92300/
 
 # This is needed for the user to show up in the Teams widget
 authors:
- - maria
+ - lucia
 
 user_groups:
- - PhD Students
+ - Estudiants de Màster
 
-order: 2
+order: 1
 
 ---

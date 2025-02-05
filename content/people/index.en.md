@@ -13,7 +13,8 @@ sections:
       user_groups:
           - Principal Investigator
           - PhD Students
-      sort_by: Params.last_name
+          - MRes Students
+      sort_by: Params.order
       sort_ascending: true
     design:
       show_interests: false

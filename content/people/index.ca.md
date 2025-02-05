@@ -1,5 +1,5 @@
 ---
-title: People
+title: Equip
 date: 2022-10-24
 
 type: landing
@@ -13,7 +13,8 @@ sections:
       user_groups:
           - Investigadora Principal
           - Estudiants de Doctorat
-      sort_by: Params.last_name
+          - Estudiants de Màster
+      sort_by: Params.order
       sort_ascending: true
     design:
       show_interests: false
