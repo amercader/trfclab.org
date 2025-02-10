@@ -15,17 +15,13 @@ sections:
         formulari següent o escrivint a
         <a href="mailto:ana.moles@iibb.csic.es">ana.moles@iibb.csic.es</a>.
       email: ana.moles@iibb.csic.es
-      address_format: "en-ca22"
-
       address:
-        street: Rosselló, 161
+        street: Rosselló 161, 08036
         city: Barcelona
-        region: Catalunya
-        postcode: '08036'
-        country: Espanya
+        region: Catalunya, Espanya
         country_code: ES
       coordinates:
-        latitude: ' 41.3904'
+        latitude: '41.3904'
         longitude: '2.1531'
 #      contact_links:
 #        - icon: comments
