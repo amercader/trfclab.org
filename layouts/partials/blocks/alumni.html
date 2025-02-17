@@ -1,0 +1,24 @@
+{{ $block := .wcBlock }}
+<div class="row justify-content-center people-widget">
+  <div class="section-heading col-12 mb-3 text-center">
+    <h1>{{ $block.content.title }}</h1>
+  </div>
+
+{{ range site.Data.alumni }}
+<div class="col-12 col-sm-auto people-person">
+  <div class="portrait-title">
+  <h2>{{ .title }}</h2>
+  <h3>{{ .subtitle }}</h3>
+  </div>
+  {{ with .linkedin }}
+  <ul class="network-icon" aria-hidden="true">
+    <li>
+      <a href="{{.}}" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  </ul>
+  {{end}}
+</div>
+{{end}}
+</div>

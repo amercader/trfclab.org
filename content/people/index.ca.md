@@ -20,4 +20,8 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+  - block: alumni
+    content: 
+        title: Membres anteriors
+
 ---
