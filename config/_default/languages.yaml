@@ -8,11 +8,14 @@ en:
     #  contentDir: content/en
   menus:
     main:
-      - name: News
-        url: post
-        weight: 20
+      - name: Research
+        url: research
+        weight: 10
       - name: People
         url: people
+        weight: 20
+      - name: News
+        url: post
         weight: 30
       - name: Publications
         url: publication
@@ -25,11 +28,14 @@ es:
 #  contentDir: content/es
   menus:
     main:
-      - name: Noticias
-        url: post
-        weight: 20
+      - name: Investigación
+        url: research
+        weight: 10
       - name: Equipo
         url: people
+        weight: 20
+      - name: Noticias
+        url: post
         weight: 30
       - name: Publicaciones
         url: publication
@@ -43,11 +49,14 @@ ca:
     #  contentDir: content/ca
   menus:
     main:
+      - name: Recerca
+        url: research
+        weight: 10
+      - name: Equipo
+        url: people
+        weight: 20
       - name: Notícies
         url: post
-        weight: 20
-      - name: Equip
-        url: people
         weight: 30
       - name: Publicacions
         url: publication
