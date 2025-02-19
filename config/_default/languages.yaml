@@ -52,7 +52,7 @@ ca:
       - name: Recerca
         url: research
         weight: 10
-      - name: Equipo
+      - name: Equip
         url: people
         weight: 20
       - name: Notícies
