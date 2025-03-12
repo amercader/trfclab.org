@@ -2,6 +2,7 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
+
 # Default language
 en:
   languageCode: en-us
@@ -11,6 +12,9 @@ en:
       - name: Research
         url: research
         weight: 10
+      - name: How we work
+        url: how-we-work
+        weight: 15
       - name: People
         url: people
         weight: 20
@@ -31,6 +35,9 @@ es:
       - name: Investigación
         url: research
         weight: 10
+      - name: Cómo trabajamos
+        url: how-we-work
+        weight: 15
       - name: Equipo
         url: people
         weight: 20
@@ -52,6 +59,9 @@ ca:
       - name: Recerca
         url: research
         weight: 10
+      - name: Com treballem
+        url: how-we-work
+        weight: 15
       - name: Equip
         url: people
         weight: 20
