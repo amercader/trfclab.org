@@ -10,9 +10,14 @@ Dr. Anna Moles, head of the Tissue Remodeling, Fibrosis and Cancer (TRFC) resear
 Prof. Derek Mann, head of the Newcastle University Newcastle Fibrosis Research Group (NFRG) will deliver the talk "Neutrophils in the pathogenesis and immunotherapy of primary liver cancer" where he will talk about his latest research on the role of neutrophils in hepatocellular carcinoma and how their modulation opens new avenues for the development of new treatments for patients with liver cancer.
 Do not miss it!
 For more information, please visit the following link:
+
 https://liverseminars.eu/
+
 You can recover the talk in here:
+
 https://liverseminars.eu/editions-videos/
+
 https://www.youtube.com/watch?v=eotx9X6nK1Q
-CATALÀ I CASTELLÀ
+
+
 https://www.iibb.csic.es/en/news/iibb-csic-moderating-next-liverserminars-prof-derek-mann-newcastle-university-uk-guest-speaker

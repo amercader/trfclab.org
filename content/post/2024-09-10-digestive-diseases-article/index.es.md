@@ -6,4 +6,6 @@ image:
   focal_point: 'Smart'
 ---
 
-Estamos emocionados de compartir nuestra última revisión explorando el potencial de las catepsinas lisosómicas como dianas terapéuticas para la Enfermedad Esteatótica de Disfunción Metabólica (MASLD) y el Carcinoma Hepatocelular (HCC). https://www.explorationpub.com/Journals/edd/Article/100559
+Estamos emocionados de compartir nuestra última revisión explorando el potencial de las catepsinas lisosómicas como dianas terapéuticas para la Enfermedad Esteatótica de Disfunción Metabólica (MASLD) y el Carcinoma Hepatocelular (HCC). 
+
+https://www.explorationpub.com/Journals/edd/Article/100559

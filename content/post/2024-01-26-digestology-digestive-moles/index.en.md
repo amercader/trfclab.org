@@ -1,5 +1,5 @@
 ---
-title: "Dr. Anna Moles co-organizes the 9th Course on Basic and Translational Research in Digestive Diseases: Advanced Cell Cultures Applied to the Study of Liver and Digestive Diseases at the XXXIII Congress of the Catalan Society of Digestology."
+title: "Dr. Anna Moles co-organizes the 9th Course on Basic and Translational Research in Digestive Diseases at the XXXIII Congress of the Catalan Society of Digestology"
 date: 2024-01-26
 image:
   filename: featured.jpg

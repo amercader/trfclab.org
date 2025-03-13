@@ -1,5 +1,5 @@
 ---
-title: "La Dra. Anna Moles coorganitza el 9è Curs d'Investigació Bàsica i Traslacional en Malalties Digestives: Cultius Cel·lulars Avançats Aplicats a l'Estudi de Malalties Hepàtiques i Digestives al XXXIII Congrés de la Societat Catalana de Digestologia."
+title: "La Dra. Anna Moles coorganitza el 9è Curs d'Investigació Bàsica i Traslacional en Malalties Digestives al XXXIII Congrés de la Societat Catalana de Digestologia."
 date: 2024-01-26
 image:
   filename: featured.jpg

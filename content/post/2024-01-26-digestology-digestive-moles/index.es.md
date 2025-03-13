@@ -1,5 +1,5 @@
 ---
-title: "La Dra. Anna Moles coorganiza el IX Curso de Investigación Básica y Translacional en Enfermedades Digestivas: Culturas Celulares Avanzadas Aplicadas al Estudio de Enfermedades Hídricas y Digestivas en el XXXIII Congreso de la Sociedad Catalana de Digestología."
+title: "La Dra. Anna Moles coorganiza el IX Curso de Investigación Básica y Translacional en Enfermedades Digestivas en el XXXIII Congreso de la Sociedad Catalana de Digestología."
 date: 2024-01-26
 image:
   filename: featured.jpg

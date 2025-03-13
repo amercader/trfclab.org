@@ -1,5 +1,5 @@
 ---
-title: "Bon Nadal des del laboratori TRFC!"
+title: "Bon Nadal i Feliç 2025 des del TRFC Lab!"
 date: 2024-12-20
 image:
   filename: featured.jpg

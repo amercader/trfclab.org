@@ -6,4 +6,4 @@ image:
   focal_point: 'Smart'
 ---
 
-La AFA del Institut Escola Arrabassada recibe el 3er premio en la Categoría “Transformación de la Sociedad” de aFFaC por el proyecto “Fem+Ciència”. Este proyecto fue organizado por el Dr. Bennassar (foto a la derecha), miembro de la AFA de la IE Arrabassada y el Dr. Moles (foto a la izquierda) con el objetivo de acercar a las científicas a los estudiosos y visualizar su trabajo. Puedes leer más sobre este proyecto en el siguiente post.
+La AFA del Institut Escola Arrabassada recibe el 3er premio en la Categoría “Transformación de la Sociedad” de aFFaC por el proyecto “Fem+Ciència”. Este proyecto fue organizado por el Dr. Bennassar (foto a la derecha), miembro de la AFA de la IE Arrabassada y el Dr. Moles (foto a la izquierda) con el objetivo de acercar a las científicas a los estudiosos y visualizar su trabajo. Podéis leer más sobre este proyecto en el siguiente post.

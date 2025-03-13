@@ -6,4 +6,3 @@ image:
   focal_point: 'Smart'
 ---
 
-Foto36

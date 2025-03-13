@@ -6,4 +6,14 @@ image:
   focal_point: 'Smart'
 ---
 
-La Dra. Anna Moles, responsable del grup de recerca en Remodelació de Teixits, Fibrosi i Càncer (TRFC), moderarà el proper Liver Seminar amb el Prof. Derek Mann-univers-f. El Prof. Derek Mann, responsable del Newcastle University Newcastle Fibrosis Research Group (NFRG) impartirà la xerrada Neutròfils en la patogènesi i immunoteràpia del càncer primari de fetge on parlarà sobre les seves últimes investigacions sobre el paper dels neutròfils en el carcinoma hepatotubular i com la seva modulació obre noves vies per al desenvolupament de nous tractaments per a pacients amb càncer de fetge. No t'ho perdis! Per a més informació, visita el següent enllaç: https://www.newQliverses.com.utx
+La Dra. Anna Moles, responsable del grup de recerca en Remodelació de Teixits, Fibrosi i Càncer (TRFC), moderarà el proper Liver Seminar amb el Prof. Derek Mann-univers-f. El Prof. Derek Mann, responsable del Newcastle University Newcastle Fibrosis Research Group (NFRG) impartirà la xerrada Neutròfils en la patogènesi i immunoteràpia del càncer primari de fetge on parlarà sobre les seves últimes investigacions sobre el paper dels neutròfils en el carcinoma hepatotubular i com la seva modulació obre noves vies per al desenvolupament de nous tractaments per a pacients amb càncer de fetge. No t'ho perdis! Per a més informació, visita el següent enllaços:
+
+https://liverseminars.eu/
+
+
+https://liverseminars.eu/editions-videos/
+
+https://www.youtube.com/watch?v=eotx9X6nK1Q
+
+
+https://www.iibb.csic.es/ca/news/iibb-csic-moderating-next-liverserminars-prof-derek-mann-newcastle-university-uk-guest-speaker
