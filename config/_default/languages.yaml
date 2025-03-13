@@ -24,6 +24,9 @@ en:
       - name: Publications
         url: publication
         weight: 40
+      - name: Funders
+        url: funders
+        weight: 45
       - name: Contact
         url: contact
         weight: 50
@@ -47,6 +50,10 @@ es:
       - name: Publicaciones
         url: publication
         weight: 40
+      - name: Finanzadores
+        url: funders
+        weight: 45
+
       - name: Contacto
         url: contact
         weight: 50
@@ -71,6 +78,9 @@ ca:
       - name: Publicacions
         url: publication
         weight: 40
+      - name: Finançadors
+        url: funders
+        weight: 45
       - name: Contacte
         url: contact
         weight: 50
